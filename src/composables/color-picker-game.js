@@ -1,4 +1,4 @@
-import {ref, onMounted, onUnmounted } from 'vue'
+import {ref } from 'vue'
 
 export function usePicker(){
     const message = ref("Pick a color...")
