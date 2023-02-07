@@ -13,7 +13,7 @@ export function usePicker(){
           return;
         }
   
-        message.value = `You loose [answer: ${colors[randomNumber]}]`;
+        message.value = `You lose [answer: ${colors[randomNumber]}]`;
       };
   
       return { colors, message, matchColor };
