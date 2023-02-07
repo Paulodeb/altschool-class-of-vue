@@ -16,6 +16,7 @@ export default {
     const { colors, message, matchColor } = usePicker()
     return { colors, message, matchColor }
   },
+  
 };
 </script>
 

@@ -5,8 +5,8 @@ export function usePicker(){
     const colors = ['green', 'red', 'blue', 'purple'];
 
     const matchColor = (value) => {
-        // do a random color based on the array index;
-        const randomNumber = Math.floor(Math.random() * 3) + 1; //between 1 - 4
+       
+        const randomNumber = Math.floor(Math.random() * 3) + 1; 
   
         if (colors[randomNumber] === value) {
           message.value = `You win... [answer: ${colors[randomNumber]}]`;
